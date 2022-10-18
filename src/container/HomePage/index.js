@@ -115,7 +115,7 @@ function HomePage(props) {
         //   }
         // });
       })
-      .then(() => window.open("/app", "_self"))
+      .then((data) => window.open("/app", "_self"))
       .catch((err) => toast.error(err.message));
   };
 
